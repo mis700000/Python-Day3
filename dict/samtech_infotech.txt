@@ -1,0 +1,13 @@
+Samtech_infotech ={"dept_name":"electronics","emp_name":"Irfan sheikh","emp_id":12134,"emp_email":"goldmania@ymail.com","emp_salary":"$10000"}
+
+for key_company in sorted (Samtech_infotech.iterkeys()):
+        print "%s: %s" % (key_company,Samtech_infotech[key_company])
+        
+
+for key_company in sorted(Samtech_infotech.iterkeys(),reverse=True):
+        print "%s: %s" % (key_company,Samtech_infotech[key_company])
+print Samtech_infotech.update(specialization=microprocessor)# how can you add this string in a dict ?
+print Samtech_infotech
+
+
+

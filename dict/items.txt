@@ -1,0 +1,6 @@
+irfan={'name':'irfan','age':40}
+
+for key,value in irfan.items():
+   print "%s"% key,value
+
+print "%s"% irfan.items()
